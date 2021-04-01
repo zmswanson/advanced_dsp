@@ -1,0 +1,1 @@
+"./aic3204.obj" "./audioProcessing.obj" "./ezdsp5535_lcd.obj" "./hellocfg.obj" "./hellocfg_c.obj" "./main.obj" "./myNCO.obj" "./myfir.obj" "./oscDisplay.obj" -l"./hellocfg.cmd" -l"libc.a" -l"cslVC5505.lib" -l"ezdsp5535bsl.lib" -l"rts55x.lib" 

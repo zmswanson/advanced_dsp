@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}Introduction}{3}
+\contentsline {section}{\numberline {2}Project Description}{3}
+\contentsline {subsection}{\numberline {2.1}Filter Design}{3}
+\contentsline {subsection}{\numberline {2.2}Program Description}{3}
+\contentsline {subsection}{\numberline {2.3}HWI\_I2S\_Rx}{4}
+\contentsline {subsection}{\numberline {2.4}HWI\_I2S\_Tx}{5}
+\contentsline {subsection}{\numberline {2.5}SWI\_PingFunc and SWI\_PongFunc}{5}
+\contentsline {subsection}{\numberline {2.6}montiorSW1}{5}
+\contentsline {subsection}{\numberline {2.7}monitorSW2}{6}
+\contentsline {section}{\numberline {3}Results}{7}
+\contentsline {subsection}{\numberline {3.1}CPU Usage}{7}
+\contentsline {subsection}{\numberline {3.2}Execution Graph}{8}
+\contentsline {subsection}{\numberline {3.3}Demonstration}{8}
+\contentsline {section}{\numberline {4}Summary}{9}
+\contentsline {section}{\numberline {5}Appendix}{10}

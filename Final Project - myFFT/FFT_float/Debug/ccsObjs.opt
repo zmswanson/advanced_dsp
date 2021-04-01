@@ -1,0 +1,1 @@
+"./fft2.obj" "./main.obj" "./myFFT.obj" "../lnkx.cmd" -l"libc.a" -l"C:\Users\Zach\Dropbox\elec498_spring_2018\c55_dsplib_03.00.00.03\lib\55xdspx_r3.lib" 

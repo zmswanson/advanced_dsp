@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?ccsproject version="1.0"?>
+<projectOptions>
+	<deviceVariant value="TMS320C55XX.TMS320C5505"/>
+	<deviceEndianness value="big"/>
+	<codegenToolVersion value="4.3.2"/>
+	<linkerCommandFile value="C:\CCStudio_v3.3\boards\ezdsp5535\tests\aic3204\lnkx.cmd"/>
+	<rts value="rts55x.lib"/>
+	<defaultAssemblyOnly value="false"/>
+	<deviceFamily value="C5500"/>
+	<isTargetManual value="true"/>
+	<origin value="C:/Users/Zach/Dropbox/elec498_spring_2018/ezdsp5535_v1/tests/aic3204"/>
+</projectOptions>

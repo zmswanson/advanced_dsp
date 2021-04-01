@@ -1,0 +1,14 @@
+\contentsline {section}{\numberline {1}Introduction}{3}
+\contentsline {section}{\numberline {2}Background}{3}
+\contentsline {section}{\numberline {3}Project Description}{3}
+\contentsline {subsection}{\numberline {3.1}Specifications}{3}
+\contentsline {subsection}{\numberline {3.2}Filter Design}{4}
+\contentsline {subsection}{\numberline {3.3}Program - myfir}{4}
+\contentsline {subsection}{\numberline {3.4}Program - Audio Filtering}{5}
+\contentsline {section}{\numberline {4}Results}{6}
+\contentsline {subsection}{\numberline {4.1}MATLAB v Embedded Implementation}{6}
+\contentsline {subsection}{\numberline {4.2}Filter Delay}{6}
+\contentsline {subsection}{\numberline {4.3}Cycle Efficiency}{6}
+\contentsline {subsection}{\numberline {4.4}Demonstration}{8}
+\contentsline {section}{\numberline {5}Summary}{8}
+\contentsline {section}{\numberline {6}Appendix}{9}

@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}Introduction}{3}
+\contentsline {section}{\numberline {2}Background}{3}
+\contentsline {section}{\numberline {3}Project Description}{3}
+\contentsline {subsection}{\numberline {3.1}Specifications}{3}
+\contentsline {subsection}{\numberline {3.2}myNCO}{4}
+\contentsline {subsection}{\numberline {3.3}Writing to the DAC}{4}
+\contentsline {subsection}{\numberline {3.4}signalAttenuate}{5}
+\contentsline {section}{\numberline {4}Results}{5}
+\contentsline {subsection}{\numberline {4.1}Oscilloscope Captures}{5}
+\contentsline {subsection}{\numberline {4.2}Frequency Accuracy}{5}
+\contentsline {subsection}{\numberline {4.3}Frequency Range}{5}
+\contentsline {subsection}{\numberline {4.4}Chirp}{6}
+\contentsline {subsection}{\numberline {4.5}Attenuate}{6}
+\contentsline {subsection}{\numberline {4.6}DAC Cycle Count}{7}
+\contentsline {section}{\numberline {5}Appendix}{8}

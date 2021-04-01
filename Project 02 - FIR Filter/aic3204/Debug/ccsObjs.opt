@@ -1,0 +1,1 @@
+"./aic3204_loop_linein.obj" "./aic3204_test.obj" "./aic3204_tone_headphone.obj" "./main.obj" "./myfir.obj" "../lnkx.cmd" -l"cslVC5505.lib" -l"ezdsp5535bsl.lib" -l"rts55x.lib" 

@@ -1,0 +1,218 @@
+******************************************************************************
+              TMS320C55x Linker PC v4.4.1                      
+******************************************************************************
+>> Linked Sun Feb 04 20:12:10 2018
+
+OUTPUT FILE NAME:   <Project 02 - FIR.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: 0002067a
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+                        (bytes)   (bytes)    (bytes)   (bytes)
+----------------------  --------  ---------  --------  --------  ----  --------
+PAGE 0:
+  MMR                   00000000   000000c0  00000000  000000c0  RWIX
+  DARAM0                000000c0   0000ff40  0000332a  0000cc16  RWIX
+  SARAM0                00010000   00010000  00000000  00010000  RWIX
+  SARAM1                00020000   00020000  000006ca  0001f936  RWIX
+  SARAM2                00040000   0000fe00  0000002a  0000fdd6  RWIX
+  VECS                  0004fe00   00000200  00000100  00000100  RWIX
+  PDROM                 00ff8000   00008000  00000000  00008000  R IX
+
+PAGE 2:
+  IOPORT                00000000   00020000  00000000  00020000  RWI 
+
+
+SECTION ALLOCATION MAP
+(Addresses surrounded by []'s are displayed for convenience only!)
+
+output                                                          attributes/
+section   page  orgn(bytes) orgn(words) len(bytes) len(words)   input sections
+--------  ----  ----------- ----------- ---------- ----------   --------------
+.pinit       0   [ 00040000 ]  00020000          *   00000000   UNINITIALIZED
+
+.stack       0   [ 000000c0 ]  00000060          *   00001000   UNINITIALIZED
+                 [ 000000c0 ]  00000060          *   00001000   --HOLE--
+
+.data        0   [ 000000c0 ]  00000060          *   00000000   UNINITIALIZED
+
+.sysstack 
+*            0   [ 000020c0 ]  00001060          *   00000800   UNINITIALIZED
+                 [ 000020c0 ]  00001060          *   00000800   --HOLE--
+
+.bss.1       0   [ 000030c0 ]  00001860          *   0000015d   UNINITIALIZED
+                 [ 000030c0 ]  00001860          *   0000015d   main.obj (.bss)
+
+.bss.2       0   [ 0000337c ]  000019be          *   00000008   UNINITIALIZED
+                 [ 0000337c ]  000019be          *   00000004   rts55x.lib : _lock.obj (.bss)
+                 [ 00003384 ]  000019c2          *   00000004              : exit.obj (.bss)
+
+.const       0   [ 0000338c ]  000019c6          *   00000030   
+                 [ 0000338c ]  000019c6          *   00000030   aic3204_tone_headphone.obj (.const:_$P$T0$1)
+
+.text        0     00020000  [ 00010000 ] 000006ca          *   
+                   00020000  [ 00010000 ] 00000238          *   aic3204_tone_headphone.obj (.text)
+                   00020238  [ 0001011c ] 00000229          *   aic3204_loop_linein.obj (.text)
+                   00020461  [ 00010230+] 00000084          *   myfir.obj (.text)
+                   000204e5  [ 00010272+] 00000065          *   aic3204_test.obj (.text)
+                   0002054a  [ 000102a5 ] 0000005a          *   main.obj (.text)
+                   000205a4  [ 000102d2 ] 0000004d          *   rts55x.lib : autoinit.obj (.text)
+                   000205f1  [ 000102f8+] 0000004b          *              : args_main.obj (.text)
+                   0002063c  [ 0001031e ] 0000003e          *              : exit.obj (.text)
+                   0002067a  [ 0001033d ] 00000034          *              : boot.obj (.text)
+                   000206ae  [ 00010357 ] 00000012          *              : _lock.obj (.text)
+                   000206c0  [ 00010360 ] 00000007          *              : exit.obj (.text:CIO_breakpoint)
+                   000206c7  [ 00010363+] 00000002          *              : vectors.obj (.text)
+                   000206c9  [ 00010364 ] 00000001          *   --HOLE-- [fill = 20]
+
+.cinit       0   [ 00040000 ]  00020000          *   00000015   
+                 [ 00040000 ]  00020000          *   0000000a   rts55x.lib : _lock.obj (.cinit)
+                 [ 00040014 ]  0002000a          *   0000000a              : exit.obj (.cinit)
+                 [ 00040028 ]  00020014          *   00000001   --HOLE-- [fill = 0]
+
+vectors      0     0004fe00  [ 00027f00 ] 00000100          *   
+                   0004fe00  [ 00027f00 ] 00000100          *   rts55x.lib : vectors.obj (vectors)
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+abs. value/
+byte addr   word addr   name
+---------   ---------   ----
+00000002                $TI_capability$C5500$CallingConvention
+00000002                $TI_capability$C5500$MemoryModel
+00000001                $TI_capability_requires_rev3
+ffffffff                .bss
+ffffffff                .data
+ffffffff                .text
+000206c1                C$$EXIT
+00020507                _AIC3204_rget
+000204e5                _AIC3204_rset
+UNDEFED    _EZDSP5535_I2C_init
+UNDEFED    _EZDSP5535_I2C_read
+UNDEFED    _EZDSP5535_I2C_write
+UNDEFED    _EZDSP5535_I2S_close
+UNDEFED    _EZDSP5535_I2S_init
+UNDEFED    _EZDSP5535_I2S_readLeft
+UNDEFED    _EZDSP5535_I2S_readRight
+UNDEFED    _EZDSP5535_I2S_writeLeft
+UNDEFED    _EZDSP5535_I2S_writeRight
+UNDEFED    _EZDSP5535_init
+UNDEFED    _EZDSP5535_wait
+UNDEFED    _EZDSP5535_waitusec
+0004fe00                _Reset
+            00001060    __STACK_END
+00002000                __STACK_SIZE
+00001000                __SYSSTACK_SIZE
+00000001                __TI_args_main
+ffffffff                ___binit__
+ffffffff                ___bss__
+ffffffff                ___c_args__
+            00020000    ___cinit__
+ffffffff                ___data__
+ffffffff                ___edata__
+ffffffff                ___end__
+ffffffff                ___etext__
+ffffffff                ___pinit__
+ffffffff                ___text__
+000205f1                __args_main
+            000019c2    __cleanup_ptr
+            000019c4    __dtors_ptr
+            000019be    __lock
+000206be                __nop
+000206b6                __register_lock
+000206ae                __register_unlock
+            00000060    __stack
+            00001060    __sysstack
+            000019c0    __unlock
+000206c0                _abort
+00020238                _aic3204_loop_linein
+00020000                _aic3204_tone_headphone
+000205a4                _auto_init
+0002067a                _c_int00
+            00001950    _delayLine1
+            00001986    _delayLine2
+0002063c                _exit
+0002054a                _main
+00020461                _myfir
+            00001860    _out1
+ffffffff                binit
+            00020000    cinit
+ffffffff                edata
+ffffffff                end
+ffffffff                etext
+ffffffff                pinit
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+abs. value/
+byte addr   word addr   name
+---------   ---------   ----
+00000001                $TI_capability_requires_rev3
+00000001                __TI_args_main
+00000002                $TI_capability$C5500$CallingConvention
+00000002                $TI_capability$C5500$MemoryModel
+            00000060    __stack
+00001000                __SYSSTACK_SIZE
+00002000                __STACK_SIZE
+            00001060    __STACK_END
+            00001060    __sysstack
+            00001860    _out1
+            00001950    _delayLine1
+            00001986    _delayLine2
+            000019be    __lock
+            000019c0    __unlock
+            000019c2    __cleanup_ptr
+            000019c4    __dtors_ptr
+00020000                _aic3204_tone_headphone
+00020238                _aic3204_loop_linein
+00020461                _myfir
+000204e5                _AIC3204_rset
+00020507                _AIC3204_rget
+0002054a                _main
+000205a4                _auto_init
+000205f1                __args_main
+0002063c                _exit
+0002067a                _c_int00
+000206ae                __register_unlock
+000206b6                __register_lock
+000206be                __nop
+000206c0                _abort
+000206c1                C$$EXIT
+            00020000    ___cinit__
+            00020000    cinit
+0004fe00                _Reset
+ffffffff                .bss
+ffffffff                .data
+ffffffff                .text
+ffffffff                ___binit__
+ffffffff                ___bss__
+ffffffff                ___c_args__
+ffffffff                ___data__
+ffffffff                ___edata__
+ffffffff                ___end__
+ffffffff                ___etext__
+ffffffff                ___pinit__
+ffffffff                ___text__
+ffffffff                binit
+ffffffff                edata
+ffffffff                end
+ffffffff                etext
+ffffffff                pinit
+UNDEFED    _EZDSP5535_I2C_init
+UNDEFED    _EZDSP5535_I2C_read
+UNDEFED    _EZDSP5535_I2C_write
+UNDEFED    _EZDSP5535_I2S_close
+UNDEFED    _EZDSP5535_I2S_init
+UNDEFED    _EZDSP5535_I2S_readLeft
+UNDEFED    _EZDSP5535_I2S_readRight
+UNDEFED    _EZDSP5535_I2S_writeLeft
+UNDEFED    _EZDSP5535_I2S_writeRight
+UNDEFED    _EZDSP5535_init
+UNDEFED    _EZDSP5535_wait
+UNDEFED    _EZDSP5535_waitusec
+
+[63 symbols]
